@@ -54,7 +54,7 @@ def say_ip():
     ip_address = subprocess.check_output("hostname -I | cut -d' ' -f1", shell=True)
     aiy.audio.say('My IP address is %s' % ip_address.decode('utf-8'))
 
-	def radio_off():
+def radio_off():
     try:
         player.stop()
     except NameError as e:
