@@ -1,2 +1,2 @@
 # aiy-assistant
-AIY Voice Kit Code
+Messing around with the AIY voice kit.
